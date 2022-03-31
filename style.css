@@ -1,5 +1,9 @@
 @font-face {
     font-family: myFont1;
+    src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: myFont2;
     src: url(fonts/Roboto/Roboto-Light.ttf);
 }
 
@@ -11,12 +15,12 @@ body {
 .container1 {
     display:flex;
     background-color:#1F2937;
-    height:250px;
-    /* align-items:flex-start; */
-    justify-content: space-between;
-    
-
-    
+    height:auto;
+    align-items: left;    
+    flex-wrap:wrap;
+    padding-left: 50px;
+    padding-right:50px;
+       
 }
 
 #btn1 {
@@ -35,24 +39,42 @@ body {
     color: #F9FAF8;
     font-size:11px;
     font-weight: bolder;
+    padding-right:200px;
+    font-family: myFont1, sans-serif;
 }
 #h_one {
     color:white;
     font-family: myFont1, sans-serif;
+    padding-right:40px;
+    font-size:20px;
+    font-weight:900;
 }
 p {
     color:white;
-    font-size:10px;
+    font-size:11px;
+    width:150px;
+    font-family: myFont2, sans-serif;
+    font-size:9px;
+    
 }
 #img_here {
-    background-color:grey;
-    height:100 ;
-    width: 300;
+    background-color:rgb(129, 129, 129);
+    height:70px;
+    width:220px;
     color:white;
-    font-size:10px;
-    font-family:myFont1, sans-serif;
+    font-size:9px;
+    font-family:myFont2, sans-serif;
+    text-align: center;
+    padding-top:50px;
+    
+    
+    
 }
 
 .header_link {
     color:white;
+    padding-right:20px;
+    padding-bottom:40px;
+    font-size:9px;
+    font-family: myFont2, sans-serif;
 }
