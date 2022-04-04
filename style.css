@@ -14,19 +14,20 @@
 
 
 body {
-    background-color:black;
+    background-color:rgb(39, 31, 31);
     margin-left:8.5em; 
     margin-right:8.5em; 
 }
 .container1 {
     display:flex;
     background-color:#1F2937;
-    /* height:400px; */
     align-items: left;    
     flex-wrap:wrap;
-    padding-left: 50px;
+    padding-left: 80px;
     padding-right:50px;
     padding-bottom:30px;
+    margin-top:-10px;
+    
        
 }
 
@@ -38,8 +39,10 @@ body {
     height:20px;
     color:white;
     text-align:center;
-    padding-top:5px;
-    font-size:10px;
+    padding-top:0px;
+    font-size:9px;
+    font-family: myFont1, Arial, Helvetica, sans-serif;
+    
     
 }
 #logo {
@@ -47,13 +50,13 @@ body {
     font-size:11px;
     font-weight: bolder;
     padding-right:200px;
-    font-family: myFont1, sans-serif;
+    font-family: myFont1, Arial, Helvetica, sans-serif;
+    margin-left:5px;
 }
 #h_one {
     color:#F9FAF8;
-    font-family: myFont1, sans-serif;
+    font-family: myFont1, Arial, Helvetica, sans-serif;
     padding-right:40px;
-    /* font-size:48px; */
     font-size:20px;
     font-weight: bolder;
 }
@@ -61,7 +64,7 @@ p {
     color:white;
     font-size:11px;
     width:150px;
-    font-family: myFont2, sans-serif;
+    font-family: myFont2, Arial, Helvetica, sans-serif;
     font-size:9px;
     
 }
@@ -71,7 +74,7 @@ p {
     width:220px;
     color:white;
     font-size:9px;
-    font-family:myFont2, sans-serif;
+    font-family: myFont2, Arial, Helvetica, sans-serif;
     text-align: center;
     padding-top:50px;
     
@@ -84,7 +87,7 @@ p {
     padding-right:20px;
     padding-bottom:40px;
     font-size:9px;
-    font-family: myFont2, sans-serif;
+    font-family: myFont2, Arial, Helvetica, sans-serif;
 }
 
 .container1_5 {
@@ -92,9 +95,8 @@ p {
     background-color:white;
     justify-content: center;
     color:rgb(0, 0, 0);
-    /* flex-wrap: wrap; */
-    /* align-items: center; */   
-    /* flex-direction:row; */
+    height:20px;
+    
     
 }
 
@@ -104,9 +106,7 @@ p {
     display: flex;
     background-color:white;
     justify-content: center;
-    /* flex-wrap: wrap; */
-    /* align-items: center; */
-    height:150px;
+    height:130px;
     flex-direction:row;
     padding:40px;
     gap:22px;
@@ -115,7 +115,7 @@ p {
 }
 
 #info {
-    font-family: myFont1, sans-serif;
+    font-family: myFont1, Arial, Helvetica, sans-serif;
     
     
     
@@ -149,7 +149,7 @@ p {
     background-color:#E5E7EB;
     justify-content: center;
     color:rgb(0, 0, 0);
-    height:140px;
+    height:170px;
 }
 
 #p2 {
@@ -175,5 +175,56 @@ p {
     flex-direction: row;
     background-color:white;
     justify-content: center;
-    height:100px;
+    height:190px;
+}
+
+#bluebox {
+    width:500px;
+    height:70px;
+    background-color:#3882F6;
+    border-radius:5px;
+    margin-top:50px;
+}
+
+#bb1 {
+    font-size:12px;
+    font-family: myFont1, Arial, Helvetica, sans-serif;
+    margin-left:50px;
+}
+
+#bb2 {
+    margin-left:50px;
+    margin-top:-10px;
+    width:300px;
+}
+
+#bbbutton {
+    position:relative;
+    left: 400px;
+    top:-30px;
+    background-color:#3882F6;
+    color:white;
+    border-radius:5px;
+    border-style:solid;
+    border-width:1px;
+    border-color:white;
+    font-size:9px;
+    font-weight:300;
+    font-family: myFont1, Arial, Helvetica, sans-serif;
+    width:70px;
+
+}
+
+.container5 {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    background-color:#1F2937;
+    height:50px;
+    
+}
+
+#copyright {
+    margin-top:25px;
+    font-size:9px;
 }
