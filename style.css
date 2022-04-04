@@ -176,11 +176,11 @@ p {
     flex-direction: row;
     background-color:white;
     justify-content: center;
-    height:190px;
+    height:165px;
 }
 
 #bluebox {
-    width:500px;
+    width:480px;
     height:70px;
     background-color:#3882F6;
     border-radius:5px;
@@ -201,7 +201,7 @@ p {
 
 #bbbutton {
     position:relative;
-    left: 400px;
+    left: 370px;
     top:-30px;
     background-color:#3882F6;
     color:white;
