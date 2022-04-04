@@ -7,6 +7,12 @@
     src: url(fonts/Roboto/Roboto-Light.ttf);
 }
 
+@font-face {
+    font-family: myFont3;
+    src: url("fonts/Roboto/Roboto-LightItalic.ttf");
+}
+
+
 body {
     background-color:black;
     margin-left:8.5em; 
@@ -15,11 +21,12 @@ body {
 .container1 {
     display:flex;
     background-color:#1F2937;
-    height:auto;
+    /* height:400px; */
     align-items: left;    
     flex-wrap:wrap;
     padding-left: 50px;
     padding-right:50px;
+    padding-bottom:30px;
        
 }
 
@@ -80,13 +87,26 @@ p {
     font-family: myFont2, sans-serif;
 }
 
+.container1_5 {
+    display: flex;
+    background-color:white;
+    justify-content: center;
+    color:rgb(0, 0, 0);
+    /* flex-wrap: wrap; */
+    /* align-items: center; */   
+    /* flex-direction:row; */
+    
+}
+
+
+
 .container2 {
     display: flex;
     background-color:white;
     justify-content: center;
     /* flex-wrap: wrap; */
     /* align-items: center; */
-    height:400px;
+    height:150px;
     flex-direction:row;
     padding:40px;
     gap:22px;
@@ -121,4 +141,39 @@ p {
     margin-top:90px;
 
     
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    background-color:#E5E7EB;
+    justify-content: center;
+    color:rgb(0, 0, 0);
+    height:140px;
+}
+
+#p2 {
+    color:black;
+    font-family: myFont3, Arial, Helvetica, sans-serif;
+    font-size:17px;
+    width:350px;
+    margin-left:130px;
+}
+
+#Thor {
+    color:black;
+    font-weight:900;
+    font-size:11px;
+    position:relative;
+    top:90px;
+    left:-125px;
+    font-family: myFont1, Arial, Helvetica, sans-serif;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    justify-content: center;
+    height:100px;
 }
